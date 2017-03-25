@@ -21,15 +21,17 @@
         }
         .nav-content li.li-img {
             width: 30%;
-            height: 100px;
+            height: 80px;
         }
         .nav-content li.li-text {
             width: 68%;
-            height: 100px;
+            height: 80px;
         }
         #mid-nav li {
-            padding: 0 8%;
+            padding: 0 10px;
             background-color: #EEEEEE;
+        }
+        header {
             font-weight: bolder;
         }
         div#mid-nav {
@@ -45,11 +47,11 @@
             /*border-width: 1px;*/
         }
         div.abstract {
-            max-height: 70px;
+            max-height: 48px;
             max-width: 100%;
             overflow: hidden;
             text-overflow: ellipsis;
-            font-size: smaller;
+            /*font-size: smaller;*/
             /*white-space: nowrap;*/
             /*border: 1px lightblue solid;*/
         }
@@ -86,7 +88,7 @@
             var islider = new iSlider({
                 dom: document.getElementById("iSlider-wrapper")
                 , data: islider_data
-                , animateType: 'rotate' //normal
+                , animateType: 'normal' //normal,rotate
                 , isAutoplay: true
                 , isLooping: true
                 , isVertical: false
@@ -200,6 +202,16 @@
                 <li class="li-text">
                     <header>服务区介绍333</header>
                     <div class="abstract">环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890</div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-content">
+            <ul>
+                <li class="li-img"><img src="tcgs/top-pic/2.jpg"/></li>
+                <li class="li-text">
+                    <header>服务区介绍4444</header>
+                    <div class="abstract">环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890环层路段12345678901234567890</div>
                 </li>
             </ul>
         </div>
